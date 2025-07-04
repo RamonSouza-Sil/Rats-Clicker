@@ -12,14 +12,10 @@ public class SpawnQueijos : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            TentarSpawnarQueijo();
-            
-        }
+        
     }
 
-    void TentarSpawnarQueijo()
+    public void TentarSpawnarQueijo()
     {
         float sorte = Random.Range(0f, 100f);
         if (sorte <= chanceDeSpawn)
