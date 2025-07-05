@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Componentes")]
     public int queijos_Por_Segundo;
     public int queijos_Por_Click;
     public int cont_Queijos = 0;
@@ -13,8 +14,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject moeda;
     [SerializeField] Transform referencia;
+
+    [Header("Textos UI")]
     public TextMeshProUGUI text_Contador;
     public TextMeshProUGUI text_Queijos_Por_Click;
+    public TextMeshProUGUI text_Queijos_Por_Segundo;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +46,8 @@ public class GameManager : MonoBehaviour
     void UpdateUI()
     {
         text_Contador.text = FormatNumber(cont_Queijos);
+        text_Queijos_Por_Click.text = FormatNumber(queijos_Por_Click) + "Queijos p/c";
+        text_Queijos_Por_Segundo.text = FormatNumber(queijos_Por_Segundo) + "Queijos p/s";
     }
 
     public static string FormatNumber(double number)
