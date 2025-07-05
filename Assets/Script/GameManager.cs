@@ -6,12 +6,17 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    UpgradesMenu upgradesMenu;
+
     [Header("Componentes")]
     public int queijos_Por_Segundo;
     public int queijos_Por_Click;
     public int cont_Queijos = 0;
     public int click_contador;
 
+    
+
+    [Header("Referencias")]
     [SerializeField] GameObject moeda;
     [SerializeField] Transform referencia;
 
@@ -31,6 +36,9 @@ public class GameManager : MonoBehaviour
     {
         text_Queijos_Por_Click.text = queijos_Por_Click.ToString() + " queijos p/c";
         UpdateUI();
+
+        
+
     }
 
     
@@ -47,7 +55,8 @@ public class GameManager : MonoBehaviour
     {
         text_Contador.text = FormatNumber(cont_Queijos);
         text_Queijos_Por_Click.text = FormatNumber(queijos_Por_Click) + "Queijos p/c";
-        text_Queijos_Por_Segundo.text = FormatNumber(queijos_Por_Segundo) + "Queijos p/s";
+        text_Queijos_Por_Segundo.text = FormatNumber(UpgradesMenu.total_Queijos_Segundo) + " Queijos p/s";
+
     }
 
     public static string FormatNumber(double number)
@@ -55,7 +64,12 @@ public class GameManager : MonoBehaviour
         if (number < 1_000_000)
             return number.ToString("0"); // Sem "K", mostra o número normal
 
-        string[] suffixes = { "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", "Dc" };
+        string[] suffixes = {
+        "M", "B", "T",  // milhões, bilhões, trilhões
+        "Qa", "Qi", "Sx", "Sp", "Oc", "No", // quadrilhão a nonilhão
+        "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg" // até vigintilhão (10^63)
+        };
+
         int i = 0;
 
         while (number >= 1000 && i < suffixes.Length - 1)
