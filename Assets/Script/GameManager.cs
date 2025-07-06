@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public int cont_Queijos = 0;
     public int click_contador;
 
-    
+
 
     [Header("Referencias")]
     [SerializeField] GameObject moeda;
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -37,18 +37,18 @@ public class GameManager : MonoBehaviour
         text_Queijos_Por_Click.text = queijos_Por_Click.ToString() + " queijos p/c";
         UpdateUI();
 
-        
+
 
     }
 
-    
+
 
     public void ClickContador()
     {
         click_contador++;
         cont_Queijos += queijos_Por_Click;
-        
-        
+
+
     }
 
     void UpdateUI()
@@ -62,12 +62,12 @@ public class GameManager : MonoBehaviour
     public static string FormatNumber(double number)
     {
         if (number < 1_000_000)
-            return number.ToString("0"); // Sem "K", mostra o número normal
+            return number.ToString("0"); // Sem "K", mostra o nï¿½mero normal
 
         string[] suffixes = {
-        "M", "B", "T",  // milhões, bilhões, trilhões
-        "Qa", "Qi", "Sx", "Sp", "Oc", "No", // quadrilhão a nonilhão
-        "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg" // até vigintilhão (10^63)
+        "M", "B", "T",  // milhï¿½es, bilhï¿½es, trilhï¿½es
+        "Qa", "Qi", "Sx", "Sp", "Oc", "No", // quadrilhï¿½o a nonilhï¿½o
+        "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg" // atï¿½ vigintilhï¿½o (10^63)
         };
 
         int i = 0;

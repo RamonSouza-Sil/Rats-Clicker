@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+ï»¿using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ public class UpgradesMenu : MonoBehaviour
 {
     GameManager gameManager;
 
-    [Header("Botão do Upgrade")]
+    [Header("Botao do Upgrade")]
     public Button botaoUpgrade;
 
     [Header("Timer")]
@@ -27,7 +27,7 @@ public class UpgradesMenu : MonoBehaviour
     [Header("Componentes")]
     public int preco_Inicial; //preco da compra
     public int novo_Preco; //preco das novas compras
-    public float multiplicador_Preco; //multiplicador do preço inicial
+    public float multiplicador_Preco; //multiplicador do preï¿½o inicial
     public int queijos_Por_Upgrade; // queijos ganhos por upgrade
     public int queijos_Level_Total;
     public bool desbloqueado;
@@ -38,21 +38,21 @@ public class UpgradesMenu : MonoBehaviour
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
-        // Começa com a função de compra
+        // Comeï¿½a com a funï¿½ï¿½o de compra
         botaoUpgrade.onClick.AddListener(ComprarUpgrade);
         UpdateUI();
     }
 
     private void Update()
     {
-        
+
 
         if (!desbloqueado || queijos_Por_Upgrade <= 0) return;
         if (botaoUpgrade.tag != "Up_Botao_Segundos") return;
         tempo_Passado += Time.deltaTime;
 
         // upgrade de queijos por segundos
-        if(tempo_Passado >= intervalo_geracao)
+        if (tempo_Passado >= intervalo_geracao)
         {
             int ganho = queijos_Por_Upgrade * level_Upgrade;
             gameManager.queijos_Por_Segundo = ganho;
@@ -65,17 +65,17 @@ public class UpgradesMenu : MonoBehaviour
     }
     void UpdateUI()
     {
-        upgrade_preco.text = CalcularPreço().ToString();
+        upgrade_preco.text = CalcularPreco().ToString();
         upgrade_Lv.text = "Lv." + level_Upgrade.ToString();
         upgrade_Qtd_Queijo.text = "x " + queijos_Por_Upgrade.ToString();
     }
 
-    public int CalcularPreço()
+    public int CalcularPreco()
     {
         int preco = Mathf.RoundToInt(preco_Inicial * Mathf.Pow(multiplicador_Preco, level_Upgrade));
         novo_Preco = preco;
         return preco;
-        
+
     }
 
     public float CalcularPorSegundo()
@@ -90,12 +90,12 @@ public class UpgradesMenu : MonoBehaviour
 
     public void ComprarUpgrade()
     {
-        
+
         if (gameManager.cont_Queijos >= preco_Inicial && desbloqueado == false)
         {
-            gameManager.cont_Queijos -= preco_Inicial; // subtração do preço inicial do up
+            gameManager.cont_Queijos -= preco_Inicial; // subtraï¿½ï¿½o do preï¿½o inicial do up
             desbloqueado = true;
-            
+
             Debug.Log("Desbloqueado | fun ComprarUp");
             if (botaoUpgrade.tag == "Up_Botao_Click")
             {
@@ -107,7 +107,7 @@ public class UpgradesMenu : MonoBehaviour
                 level_Upgrade = 1;
                 AtualizarTotalQueijosSegundos();
                 UpdateUI();
-                
+
             }
 
             botaoUpgrade.onClick.RemoveListener(ComprarUpgrade);
@@ -127,18 +127,18 @@ public class UpgradesMenu : MonoBehaviour
         {
             Debug.Log("Queijos insulficiente para desbloquear upgrade");
         }
-        
+
     }
 
     public void UpLvUPClick()
     {
-        int preco = CalcularPreço();
+        int preco = CalcularPreco();
 
         if (gameManager.cont_Queijos >= novo_Preco) //verifica se pode comprar
         {
             gameManager.cont_Queijos -= preco; //subtrai o custo do up
             gameManager.queijos_Por_Click += queijos_Por_Upgrade; //adiciona o upgrade de click
-            
+
             level_Upgrade++; //adiciona +1 level ao upgrade
             Debug.Log("Upgrade de click upado");
             UpdateUI();
@@ -150,12 +150,12 @@ public class UpgradesMenu : MonoBehaviour
     }
     public void UpLvUPSegundos()
     {
-        int preco = CalcularPreço();
+        int preco = CalcularPreco();
 
         if (gameManager.cont_Queijos >= novo_Preco && desbloqueado == true) //verifica se pode comprar
         {
             gameManager.cont_Queijos -= preco; //subtrai o custo do up
-            
+
             level_Upgrade++; //adiciona +1 level ao upgrade
             Debug.Log("upgrade de segundos upado");
             AtualizarTotalQueijosSegundos();
@@ -171,7 +171,7 @@ public class UpgradesMenu : MonoBehaviour
     {
         total_Queijos_Segundo = 0;
 
-        
+
         UpgradesMenu[] todosUpgrades = FindObjectsOfType<UpgradesMenu>();
 
         foreach (var up in todosUpgrades)

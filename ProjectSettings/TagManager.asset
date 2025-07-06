@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Up_Botao_Click
   - Up_Botao_Segundos
+  - UI_Bloq
   layers:
   - Default
   - TransparentFX
