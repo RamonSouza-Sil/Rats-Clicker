@@ -1518,7 +1518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.5200043, y: -0.0006329664}
+  m_AnchoredPosition: {x: 0.5200043, y: 880.01044}
   m_SizeDelta: {x: 73.11, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &371061589
@@ -1737,14 +1737,14 @@ RectTransform:
   m_GameObject: {fileID: 433870398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2033908, y: 2.2033908, z: 2.2033908}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 939732699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -10}
+  m_AnchoredPosition: {x: -107, y: -5}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &433870400
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33d7cbb781473f34ea8eb35eada5a609, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3600,14 +3600,14 @@ RectTransform:
   m_GameObject: {fileID: 710585246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2905, y: 2.2905, z: 2.2905}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 774686853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -10}
+  m_AnchoredPosition: {x: -100, y: -12}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710585248
@@ -3630,7 +3630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9245613b71606ee459ef44732e60b8f4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4260,6 +4260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 774686855}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 160143219}
   upgrade_desc: {fileID: 663120668}
   upgrade_Lv: {fileID: 750321079}
@@ -4268,6 +4270,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 2
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &780591551
@@ -4776,6 +4779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 807644371}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1294682582}
   upgrade_desc: {fileID: 1854500902}
   upgrade_Lv: {fileID: 1151145101}
@@ -4784,6 +4789,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 4.5
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &807780857
@@ -5367,6 +5373,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 872099696}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 705498614}
   upgrade_desc: {fileID: 2009491865}
   upgrade_Lv: {fileID: 164199636}
@@ -5375,6 +5383,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 3.5
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1001 &903730440
@@ -5585,6 +5594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 903730443}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1238571056}
   upgrade_desc: {fileID: 244495380}
   upgrade_Lv: {fileID: 1324062597}
@@ -5593,6 +5604,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 2.5
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &904941321
@@ -5952,6 +5964,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 939732701}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1422009395}
   upgrade_desc: {fileID: 286512721}
   upgrade_Lv: {fileID: 1893074570}
@@ -5960,6 +5974,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 4
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &940428648
@@ -6813,6 +6828,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 1038427281}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1072763836}
   upgrade_desc: {fileID: 1904794832}
   upgrade_Lv: {fileID: 1646033841}
@@ -6821,6 +6838,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 5
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &1071717083
@@ -8928,8 +8946,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: 0}
-  m_SizeDelta: {x: 68.801, y: 68.8}
+  m_AnchoredPosition: {x: -106, y: -10}
+  m_SizeDelta: {x: 148.4, y: 145.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416423546
 MonoBehaviour:
@@ -8951,7 +8969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a8d0ec0097c5e74ab6fe1c6389dcf31, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9773,6 +9791,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 1466272471}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 747279153}
   upgrade_desc: {fileID: 1204882516}
   upgrade_Lv: {fileID: 1841784424}
@@ -9781,6 +9801,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &1477299963
@@ -9959,14 +9980,14 @@ RectTransform:
   m_GameObject: {fileID: 1501525228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1049, y: 2.1049, z: 2.1049}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1835093633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -17}
+  m_AnchoredPosition: {x: -105, y: -17}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501525230
@@ -9989,7 +10010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 03b1e41df2a644143a64c6eb8c0c7699, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10034,14 +10055,14 @@ RectTransform:
   m_GameObject: {fileID: 1524659711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5114, y: 2.5114, z: 2.5114}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 903730441}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -9}
+  m_AnchoredPosition: {x: -105, y: -18}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524659713
@@ -10064,7 +10085,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92497f8f696e7164294c0283565de32f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10537,6 +10558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 1689436438}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1930487939}
   upgrade_desc: {fileID: 780591553}
   upgrade_Lv: {fileID: 644528112}
@@ -10545,6 +10568,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!114 &1689436438 stripped
@@ -11183,14 +11207,14 @@ RectTransform:
   m_GameObject: {fileID: 1790655636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1857882, y: 2.1857882, z: 2.1857882}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1466272469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -9}
+  m_AnchoredPosition: {x: -114, y: -14}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1790655638
@@ -11213,7 +11237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d7cc679dc63d834d8afcaf47ec59d71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11258,14 +11282,14 @@ RectTransform:
   m_GameObject: {fileID: 1816311535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9634, y: 1.9634, z: 1.9634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 807644369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -13}
+  m_AnchoredPosition: {x: -109, y: -13}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816311537
@@ -11288,7 +11312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a31e90f0400df1243934b3b7b1a73ea2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11594,6 +11618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 1835093635}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 126480189}
   upgrade_desc: {fileID: 2116062721}
   upgrade_Lv: {fileID: 514666085}
@@ -11602,6 +11628,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 5.5
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &1841784421
@@ -12751,14 +12778,14 @@ RectTransform:
   m_GameObject: {fileID: 1992890252}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5942202, y: 2.5942202, z: 2.5942202}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1038427279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -10}
+  m_AnchoredPosition: {x: -107, y: -14}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992890254
@@ -12781,7 +12808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2899d208248630a40831c7ab2a0c512b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13084,6 +13111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 1998499932}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 1722189268}
   upgrade_desc: {fileID: 615693912}
   upgrade_Lv: {fileID: 1277319603}
@@ -13092,6 +13121,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &2008196083
@@ -13121,14 +13151,14 @@ RectTransform:
   m_GameObject: {fileID: 2008196083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2286, y: 2.2286, z: 2.2286}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 872099694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -8}
+  m_AnchoredPosition: {x: -105, y: -8}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008196085
@@ -13151,7 +13181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d718de0ffc027d4ca4e87f95f831097, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13345,14 +13375,14 @@ RectTransform:
   m_GameObject: {fileID: 2012507691}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00007712841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.096, y: 2.096, z: 2.096}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2041469391}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114, y: -13}
+  m_AnchoredPosition: {x: -110, y: -15}
   m_SizeDelta: {x: 68.801, y: 68.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012507693
@@ -13375,7 +13405,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e3e91d5756986e4690c0d812d788174, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d026124acaf2bc84c9a0709608cf6c76, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13601,6 +13631,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botaoUpgrade: {fileID: 2041469393}
+  tempo_Passado: 0
+  intervalo_geracao: 0
   upgrade_preco: {fileID: 442500757}
   upgrade_desc: {fileID: 1605833361}
   upgrade_Lv: {fileID: 1942342017}
@@ -13609,6 +13641,7 @@ MonoBehaviour:
   novo_Preco: 0
   multiplicador_Preco: 3
   queijos_Por_Upgrade: 1
+  queijos_Level_Total: 0
   desbloqueado: 0
   level_Upgrade: 0
 --- !u!1 &2044583748
