@@ -8,7 +8,7 @@ public class SpawnQueijos : MonoBehaviour
     public Transform spawnPoint;
     public float forceMin = 2f;
     public float forceMax = 5f;
-    public float timeDrestroy = 2f;
+    public float timeDestroy = 2f;
 
     void Update()
     {
@@ -34,6 +34,6 @@ public class SpawnQueijos : MonoBehaviour
             float force = Random.Range(forceMin, forceMax);
             rb.AddForce(new Vector2(Random.Range(-1f, 1f), 1f) * force, ForceMode2D.Impulse);
         }
-        Destroy(instancia, timeDrestroy);
+        Destroy(instancia, timeDestroy);
     }
 }
