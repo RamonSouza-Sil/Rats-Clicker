@@ -62,15 +62,15 @@ public class GameManager : MonoBehaviour
     public static string FormatNumber(double number)
     {
         if (number < 1_000_000)
-            return number.ToString("0"); // Sem "K", mostra o n�mero normal
+            return number.ToString("0");
 
         string[] suffixes = {
-        "M", "B", "T",  // milh�es, bilh�es, trilh�es
-        "Qa", "Qi", "Sx", "Sp", "Oc", "No", // quadrilh�o a nonilh�o
-        "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg" // at� vigintilh�o (10^63)
-        };
+        "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No",
+        "Dc", "Ud", "Dd", "Td", "Qad", "Qid", "Sxd", "Spd", "Ocd", "Nod", "Vg"
+    };
 
         int i = 0;
+        number /= 1_000_000; // começa a contagem em milhões
 
         while (number >= 1000 && i < suffixes.Length - 1)
         {
