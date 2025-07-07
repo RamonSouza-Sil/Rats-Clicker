@@ -7,9 +7,11 @@ public class AbirTelaRoupas : MonoBehaviour
     [Header("Menu de Roupas")]
     public GameObject menuRoupas;
     public GameObject menuConfig;
+    
+
     public void ClickBotao() //ativa o menu de troca de roupas
     {
-        if(menuRoupas.activeInHierarchy == false)
+        if (menuRoupas.activeInHierarchy == false)
         {
             menuRoupas.SetActive(true);
         }
@@ -17,7 +19,7 @@ public class AbirTelaRoupas : MonoBehaviour
 
     public void FecharMenu()
     {
-        if(menuRoupas.activeInHierarchy == true)
+        if (menuRoupas.activeInHierarchy == true)
         {
             menuRoupas.SetActive(false);
         }
@@ -38,4 +40,6 @@ public class AbirTelaRoupas : MonoBehaviour
             menuConfig.SetActive(true);
         }
     }
+    
+    
 }
