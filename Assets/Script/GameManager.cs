@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Componentes")]
     public int queijos_Por_Segundo;
-    public int queijos_Por_Click;
-    public int cont_Queijos = 0;
+    public int queijos_Por_Click = 1;
+    public int cont_Queijos;
     public int click_contador;
 
 
@@ -28,26 +28,37 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cont_Queijos = PlayerPrefs.GetInt("quantidadeQueijos", 0);
+        queijos_Por_Segundo = PlayerPrefs.GetInt("queijosSegundos", 0);
+        queijos_Por_Click = PlayerPrefs.GetInt("queijosClick", 1);
+        click_contador = PlayerPrefs.GetInt("contadorClick", 0);
 
+        UpdateUI();
     }
 
     // Update is called once per frame
     void Update()
     {
-        text_Queijos_Por_Click.text = queijos_Por_Click.ToString() + " queijos p/c";
         UpdateUI();
-
-
-
     }
 
+    
 
+    public void SaveGame()
+    {
+        PlayerPrefs.SetInt("quantidadeQueijos", cont_Queijos);
+        PlayerPrefs.SetInt("queijosSegundos", queijos_Por_Segundo);
+        PlayerPrefs.SetInt("queijosClick", queijos_Por_Click);
+        PlayerPrefs.SetInt("contadorClick", click_contador);
+        PlayerPrefs.Save();
+    }
 
     public void ClickContador()
     {
         click_contador++;
         cont_Queijos += queijos_Por_Click;
-
+        SaveGame();
+        
 
     }
 

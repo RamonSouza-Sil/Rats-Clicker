@@ -5990,7 +5990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -29.937958, y: 56.270996}
+  m_AnchoredPosition: {x: -29.937988, y: 56.270996}
   m_SizeDelta: {x: -600.22, y: -237.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &765740306
@@ -6258,19 +6258,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Ricota
   botaoUpgrade: {fileID: 774686855}
+  iconButton: {fileID: 710585248}
   tempo_Passado: 0
   intervalo_geracao: 40
   upgrade_preco: {fileID: 160143219}
   upgrade_desc: {fileID: 663120668}
   upgrade_Lv: {fileID: 750321079}
   upgrade_Qtd_Queijo: {fileID: 1864820372}
+  desbloqueado: 0
   preco_Inicial: 500
   novo_Preco: 0
-  multiplicador_Preco: 2
+  multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 250
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &780591551
 GameObject:
@@ -7118,19 +7121,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Gouda
   botaoUpgrade: {fileID: 807644371}
+  iconButton: {fileID: 1816311537}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 1294682582}
   upgrade_desc: {fileID: 1854500902}
   upgrade_Lv: {fileID: 1151145101}
   upgrade_Qtd_Queijo: {fileID: 1138819494}
+  desbloqueado: 0
   preco_Inicial: 50000
   novo_Preco: 0
-  multiplicador_Preco: 4.5
+  multiplicador_Preco: 1.6
   queijos_Por_Upgrade: 500
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &809982818
 GameObject:
@@ -7868,19 +7874,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Gorgonzola
   botaoUpgrade: {fileID: 872099696}
+  iconButton: {fileID: 2008196085}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 705498614}
   upgrade_desc: {fileID: 2009491865}
   upgrade_Lv: {fileID: 164199636}
   upgrade_Qtd_Queijo: {fileID: 2091724775}
+  desbloqueado: 0
   preco_Inicial: 10000
   novo_Preco: 0
-  multiplicador_Preco: 3.5
+  multiplicador_Preco: 1.3
   queijos_Por_Upgrade: 150
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &876587710
 GameObject:
@@ -8172,19 +8181,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Cheedar
   botaoUpgrade: {fileID: 903730443}
+  iconButton: {fileID: 1524659713}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 1238571056}
   upgrade_desc: {fileID: 244495380}
   upgrade_Lv: {fileID: 1324062597}
   upgrade_Qtd_Queijo: {fileID: 1438408254}
+  desbloqueado: 0
   preco_Inicial: 2500
   novo_Preco: 0
-  multiplicador_Preco: 2
+  multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 50
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &904941321
 GameObject:
@@ -8625,19 +8637,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Provoloni
   botaoUpgrade: {fileID: 939732701}
+  iconButton: {fileID: 433870400}
   tempo_Passado: 0
   intervalo_geracao: 120
   upgrade_preco: {fileID: 1422009395}
   upgrade_desc: {fileID: 286512721}
   upgrade_Lv: {fileID: 1893074570}
   upgrade_Qtd_Queijo: {fileID: 809982821}
+  desbloqueado: 0
   preco_Inicial: 30000
   novo_Preco: 0
-  multiplicador_Preco: 3.3
+  multiplicador_Preco: 1.3
   queijos_Por_Upgrade: 4000
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &940428648
 GameObject:
@@ -9271,7 +9286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0000082515, y: -17.385}
+  m_AnchoredPosition: {x: 0.0000082515, y: -17.384995}
   m_SizeDelta: {x: 235.27002, y: 34.77002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025679375
@@ -9586,19 +9601,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Parmesao
   botaoUpgrade: {fileID: 1038427281}
+  iconButton: {fileID: 1992890254}
   tempo_Passado: 0
   intervalo_geracao: 138
   upgrade_preco: {fileID: 1072763836}
   upgrade_desc: {fileID: 1904794832}
   upgrade_Lv: {fileID: 1646033841}
   upgrade_Qtd_Queijo: {fileID: 1709004207}
+  desbloqueado: 0
   preco_Inicial: 80000
   novo_Preco: 0
-  multiplicador_Preco: 5
+  multiplicador_Preco: 1.8
   queijos_Por_Upgrade: 10000
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &1072763833
 GameObject:
@@ -9785,7 +9803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -10.900009}
+  m_AnchoredPosition: {x: 0.000015258789, y: -10.900024}
   m_SizeDelta: {x: 313.99, y: -47.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089216565
@@ -13854,19 +13872,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Coalho
   botaoUpgrade: {fileID: 1466272471}
+  iconButton: {fileID: 1790655638}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 747279153}
   upgrade_desc: {fileID: 1204882516}
   upgrade_Lv: {fileID: 1841784424}
   upgrade_Qtd_Queijo: {fileID: 1016660543}
+  desbloqueado: 0
   preco_Inicial: 100
   novo_Preco: 0
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 20
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 20
   level_Upgrade: 0
 --- !u!1 &1477299963
 GameObject:
@@ -14830,19 +14851,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Cursor
   botaoUpgrade: {fileID: 1689436438}
+  iconButton: {fileID: 537143901}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 1930487939}
   upgrade_desc: {fileID: 780591553}
   upgrade_Lv: {fileID: 644528112}
   upgrade_Qtd_Queijo: {fileID: 1410773590}
+  desbloqueado: 0
   preco_Inicial: 10
   novo_Preco: 0
-  multiplicador_Preco: 1.05
+  multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 1
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 1
   level_Upgrade: 0
 --- !u!114 &1689436438 stripped
 MonoBehaviour:
@@ -16550,19 +16574,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Reiqueijao
   botaoUpgrade: {fileID: 1835093635}
+  iconButton: {fileID: 1501525230}
   tempo_Passado: 0
   intervalo_geracao: 0
   upgrade_preco: {fileID: 126480189}
   upgrade_desc: {fileID: 2116062721}
   upgrade_Lv: {fileID: 514666085}
   upgrade_Qtd_Queijo: {fileID: 433247501}
+  desbloqueado: 0
   preco_Inicial: 150000
   novo_Preco: 0
-  multiplicador_Preco: 5.5
-  queijos_Por_Upgrade: 1500
+  multiplicador_Preco: 1.8
+  queijos_Por_Upgrade: 15000
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &1841784421
 GameObject:
@@ -18567,7 +18594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -165.02, y: -0.001449585}
+  m_AnchoredPosition: {x: -165.02, y: -0.0014648438}
   m_SizeDelta: {x: 330.05, y: 0.10998535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997690284
@@ -18624,6 +18651,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2047613651344142497, guid: e869268efd7d38745a52967381cef55f, type: 3}
+    - target: {fileID: 6295562214957042680, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295562214957042680, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295562214957042680, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6840402360650381719, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_Name
       value: Button_Mussarela
@@ -18769,6 +18808,9 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1416423545}
+    - targetCorrespondingSourceObject: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 519620073}
     - targetCorrespondingSourceObject: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       insertIndex: -1
@@ -18782,9 +18824,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1722189266}
-    - targetCorrespondingSourceObject: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1416423545}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6840402360650381719, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       insertIndex: -1
@@ -18823,19 +18862,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Mussarela
   botaoUpgrade: {fileID: 1998499932}
+  iconButton: {fileID: 1416423546}
   tempo_Passado: 0
   intervalo_geracao: 10
   upgrade_preco: {fileID: 1722189268}
   upgrade_desc: {fileID: 615693912}
   upgrade_Lv: {fileID: 1277319603}
   upgrade_Qtd_Queijo: {fileID: 640437940}
+  desbloqueado: 0
   preco_Inicial: 50
   novo_Preco: 0
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 100
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 100
   level_Upgrade: 0
 --- !u!1 &2005775101
 GameObject:
@@ -19426,19 +19468,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2733ea46a03ac5d4b924961233da10bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgradeID: Minas
   botaoUpgrade: {fileID: 2041469393}
+  iconButton: {fileID: 2012507693}
   tempo_Passado: 0
   intervalo_geracao: 60
   upgrade_preco: {fileID: 442500757}
   upgrade_desc: {fileID: 1605833361}
   upgrade_Lv: {fileID: 1942342017}
   upgrade_Qtd_Queijo: {fileID: 1477299966}
+  desbloqueado: 0
   preco_Inicial: 5000
   novo_Preco: 0
-  multiplicador_Preco: 3
+  multiplicador_Preco: 1.3
   queijos_Por_Upgrade: 500
   queijos_Level_Total: 0
-  desbloqueado: 0
+  valor_Total_Queijos_Upgrades: 0
   level_Upgrade: 0
 --- !u!1 &2044583748
 GameObject:
@@ -19907,6 +19952,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2047613651344142497, guid: e869268efd7d38745a52967381cef55f, type: 3}
+    - target: {fileID: 6295562214957042680, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6295562214957042680, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_Color.b
       value: 1
