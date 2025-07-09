@@ -27,15 +27,23 @@ public class DesbloquearRoupas : MonoBehaviour
     {
         foreach (var skinBotao in botoesDeSkins)
         {
+            if (EstaSkinDesbloqueada(skinBotao.idSkin))
+            {
+                DesbloquearBotao(skinBotao.botao);
+                continue; // já desbloqueada
+            }
+
             if (!TemFilhosAtivos(skinBotao.botao)) continue;
 
             if (gameManager.cont_Queijos >= skinBotao.precoEmQueijos)
             {
                 DesbloquearBotao(skinBotao.botao);
+                SalvarSkinDesbloqueada(skinBotao.idSkin);
                 StartCoroutine(ExibirSkinDesbloqueada(skinBotao.skinSprite));
             }
         }
     }
+
 
     void DesbloquearBotao(Button botao)
     {
@@ -88,11 +96,23 @@ public class DesbloquearRoupas : MonoBehaviour
         cg.alpha = fim;
     }
 
+    void SalvarSkinDesbloqueada(string idSkin)
+    {
+        PlayerPrefs.SetInt("Skin_" + idSkin, 1); // 1 = desbloqueado
+    }
+    bool EstaSkinDesbloqueada(string idSkin)
+    {
+        return PlayerPrefs.GetInt("Skin_" + idSkin, 0) == 1;
+    }
+
+
+
 }
 
 [System.Serializable]
 public class SkinBotao
 {
+    public string idSkin;
     public Button botao;
     public int precoEmQueijos;
     public Sprite skinSprite; // Adicione o sprite da skin associada

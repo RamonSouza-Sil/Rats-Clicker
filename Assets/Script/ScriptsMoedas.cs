@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ScriptsMoedas : MonoBehaviour
@@ -8,6 +9,7 @@ public class ScriptsMoedas : MonoBehaviour
     public int valor_Moeda;
     public GameManager gamemanager;
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -27,4 +29,9 @@ public class ScriptsMoedas : MonoBehaviour
 
         Destroy(gameObject);
     }
+
+    
+
+   
+    
 }

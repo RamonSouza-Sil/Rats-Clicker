@@ -2,7 +2,7 @@
 - Project name: Rats!
 - Unity version: Unity 2022.3.42f1
 - Active game object:
-  - Name: Button_Cursor
-  - Tag: Up_Botao_Click
+  - Name: Spawner_Queijos
+  - Tag: Untagged
   - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

@@ -1492,7 +1492,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queijos 120/s
+  m_text: Queijos 15/s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
   m_sharedMaterial: {fileID: -1692845204428523700, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
@@ -2016,7 +2016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.47998047, y: 0.91760254}
+  m_AnchoredPosition: {x: -0.47998047, y: 0}
   m_SizeDelta: {x: 310.01, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &371061589
@@ -2823,8 +2823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000085831, y: -44.864}
-  m_SizeDelta: {x: 192.03, y: 190.7}
+  m_AnchoredPosition: {x: -0.42, y: -47.045006}
+  m_SizeDelta: {x: 171.7, y: 170.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454751050
 MonoBehaviour:
@@ -2849,7 +2849,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -4359,7 +4359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queijos 10/s
+  m_text: Queijos 1/s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
   m_sharedMaterial: {fileID: -1692845204428523700, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
@@ -4975,7 +4975,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queijos 40/s
+  m_text: Queijos 2/s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
   m_sharedMaterial: {fileID: -1692845204428523700, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
@@ -6157,7 +6157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -6165,7 +6165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6205,11 +6205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -425
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6338,7 +6338,7 @@ MonoBehaviour:
   botaoUpgrade: {fileID: 774686855}
   iconButton: {fileID: 710585248}
   tempo_Passado: 0
-  intervalo_geracao: 40
+  intervalo_geracao: 2
   upgrade_preco: {fileID: 160143219}
   upgrade_desc: {fileID: 663120668}
   upgrade_Lv: {fileID: 750321079}
@@ -6347,9 +6347,9 @@ MonoBehaviour:
   preco_Inicial: 500
   novo_Preco: 0
   multiplicador_Preco: 1.15
-  queijos_Por_Upgrade: 250
+  queijos_Por_Upgrade: 25
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 25
   level_Upgrade: 0
 --- !u!1 &780591551
 GameObject:
@@ -7020,7 +7020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -7028,7 +7028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -7068,11 +7068,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1025
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7212,7 +7212,7 @@ MonoBehaviour:
   multiplicador_Preco: 1.6
   queijos_Por_Upgrade: 500
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 500
   level_Upgrade: 0
 --- !u!1 &809982818
 GameObject:
@@ -7773,7 +7773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -7781,7 +7781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -7821,11 +7821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -785
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7965,7 +7965,7 @@ MonoBehaviour:
   multiplicador_Preco: 1.3
   queijos_Por_Upgrade: 150
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 150
   level_Upgrade: 0
 --- !u!1 &876587710
 GameObject:
@@ -8080,7 +8080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8088,7 +8088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8128,11 +8128,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -545
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8272,7 +8272,7 @@ MonoBehaviour:
   multiplicador_Preco: 1.15
   queijos_Por_Upgrade: 50
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 50
   level_Upgrade: 0
 --- !u!1 &904941321
 GameObject:
@@ -8536,7 +8536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8544,7 +8544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8584,11 +8584,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -905
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8717,18 +8717,18 @@ MonoBehaviour:
   botaoUpgrade: {fileID: 939732701}
   iconButton: {fileID: 433870400}
   tempo_Passado: 0
-  intervalo_geracao: 120
+  intervalo_geracao: 9
   upgrade_preco: {fileID: 1422009395}
   upgrade_desc: {fileID: 286512721}
   upgrade_Lv: {fileID: 1893074570}
   upgrade_Qtd_Queijo: {fileID: 809982821}
   desbloqueado: 0
-  preco_Inicial: 30000
+  preco_Inicial: 25000
   novo_Preco: 0
   multiplicador_Preco: 1.3
-  queijos_Por_Upgrade: 4000
+  queijos_Por_Upgrade: 250
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 250
   level_Upgrade: 0
 --- !u!1 &940428648
 GameObject:
@@ -9096,8 +9096,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9499,7 +9499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9507,7 +9507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9547,11 +9547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1145
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9680,7 +9680,7 @@ MonoBehaviour:
   botaoUpgrade: {fileID: 1038427281}
   iconButton: {fileID: 1992890254}
   tempo_Passado: 0
-  intervalo_geracao: 138
+  intervalo_geracao: 10
   upgrade_preco: {fileID: 1072763836}
   upgrade_desc: {fileID: 1904794832}
   upgrade_Lv: {fileID: 1646033841}
@@ -9689,9 +9689,9 @@ MonoBehaviour:
   preco_Inicial: 80000
   novo_Preco: 0
   multiplicador_Preco: 1.8
-  queijos_Por_Upgrade: 10000
+  queijos_Por_Upgrade: 3000
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 3000
   level_Upgrade: 0
 --- !u!1 &1072763833
 GameObject:
@@ -10831,7 +10831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 100}
+  m_AnchoredPosition: {x: -0.0000052452, y: 100.7}
   m_SizeDelta: {x: 138.42, y: 131.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177446602
@@ -11266,7 +11266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1257296133
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12096,12 +12096,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 456de7515a08f774181d8d68ff26a629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnAreaTexto: {fileID: 1953229054}
   queijoPrefab: {fileID: 6153561014121099622, guid: 24475abc2c3798f4a9015eb1dc93f9c2, type: 3}
+  textoFeedback: {fileID: 1059017440934500237, guid: 8af02dec6cb50ec41b9d344b1a0a48d7, type: 3}
+  spawnPointText: {fileID: 1953229054}
+  spawnPointQueijos: {fileID: 1317152220}
   chanceDeSpawn: 15
-  spawnPoint: {fileID: 1317152220}
   forceMin: 2
   forceMax: 5
   timeDestroy: 2
+  timeDestroyTexto: 2
+  tempoDesaparecer: 1.5
 --- !u!1 &1319199764
 GameObject:
   m_ObjectHideFlags: 0
@@ -13916,7 +13921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -13924,7 +13929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -13964,11 +13969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -305
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14106,9 +14111,9 @@ MonoBehaviour:
   preco_Inicial: 100
   novo_Preco: 0
   multiplicador_Preco: 1.15
-  queijos_Por_Upgrade: 20
+  queijos_Por_Upgrade: 5
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 20
+  valor_Total_Queijos_Upgrades: 5
   level_Upgrade: 0
 --- !u!1 &1477299963
 GameObject:
@@ -14615,7 +14620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queijos 60/s
+  m_text: Queijos 5/s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
   m_sharedMaterial: {fileID: -1692845204428523700, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
@@ -15353,20 +15358,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1730728743}
   botoesDeSkins:
-  - botao: {fileID: 1918248313}
-    precoEmQueijos: 10000
+  - idSkin: Abobra
+    botao: {fileID: 1918248313}
+    precoEmQueijos: 10
     skinSprite: {fileID: 21300000, guid: 769cad8333c0c6943a17d94b288407cc, type: 3}
-  - botao: {fileID: 127456870}
-    precoEmQueijos: 50000
+  - idSkin: Anjo
+    botao: {fileID: 127456870}
+    precoEmQueijos: 20
     skinSprite: {fileID: 21300000, guid: a1d13c888a52d594eb39298bc719f7c8, type: 3}
-  - botao: {fileID: 415494411}
-    precoEmQueijos: 150000
+  - idSkin: Demon
+    botao: {fileID: 415494411}
+    precoEmQueijos: 30
     skinSprite: {fileID: 21300000, guid: ce4ce02c6bc3db44eb4ab6285834b9a4, type: 3}
-  - botao: {fileID: 504888564}
-    precoEmQueijos: 300000
+  - idSkin: Fantasma
+    botao: {fileID: 504888564}
+    precoEmQueijos: 35
     skinSprite: {fileID: 21300000, guid: c2aba4c264a379948a107ab9b2e514cf, type: 3}
-  - botao: {fileID: 842438587}
-    precoEmQueijos: 500000
+  - idSkin: Natal
+    botao: {fileID: 842438587}
+    precoEmQueijos: 50
     skinSprite: {fileID: 21300000, guid: a12d574b062e1d44692cb67633e65614, type: 3}
   painelSkinDesbloqueada: {fileID: 765740304}
   imagemSkinDesbloqueada: {fileID: 805046433}
@@ -16401,6 +16411,7 @@ RectTransform:
   - {fileID: 1177446601}
   - {fileID: 454751049}
   - {fileID: 1317152220}
+  - {fileID: 1953229054}
   m_Father: {fileID: 745019835}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -16484,7 +16495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -16492,7 +16503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -16532,11 +16543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -1265
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16671,12 +16682,12 @@ MonoBehaviour:
   upgrade_Lv: {fileID: 514666085}
   upgrade_Qtd_Queijo: {fileID: 433247501}
   desbloqueado: 0
-  preco_Inicial: 150000
+  preco_Inicial: 130000
   novo_Preco: 0
-  multiplicador_Preco: 1.8
+  multiplicador_Preco: 2
   queijos_Por_Upgrade: 15000
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 15000
   level_Upgrade: 0
 --- !u!1 &1841784421
 GameObject:
@@ -17612,7 +17623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Queijos 138/s
+  m_text: Queijos 8/s
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
   m_sharedMaterial: {fileID: -1692845204428523700, guid: 196b28cbd570f3d4d9f270dd62fd20d6, type: 2}
@@ -18285,6 +18296,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942342014}
   m_CullTransparentMesh: 1
+--- !u!1 &1953229053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1953229054}
+  m_Layer: 5
+  m_Name: Spawner_Texto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1953229054
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953229053}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1832296371}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.42, y: 24.17}
+  m_SizeDelta: {x: 231.12, y: 134.62}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1959828539
 GameObject:
   m_ObjectHideFlags: 0
@@ -18907,7 +18953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -18915,7 +18961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -18955,11 +19001,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -185
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19088,7 +19134,7 @@ MonoBehaviour:
   botaoUpgrade: {fileID: 1998499932}
   iconButton: {fileID: 1416423546}
   tempo_Passado: 0
-  intervalo_geracao: 10
+  intervalo_geracao: 1
   upgrade_preco: {fileID: 1722189268}
   upgrade_desc: {fileID: 615693912}
   upgrade_Lv: {fileID: 1277319603}
@@ -19097,9 +19143,9 @@ MonoBehaviour:
   preco_Inicial: 50
   novo_Preco: 0
   multiplicador_Preco: 1.15
-  queijos_Por_Upgrade: 100
+  queijos_Por_Upgrade: 1
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 100
+  valor_Total_Queijos_Upgrades: 1
   level_Upgrade: 0
 --- !u!1 &2005775101
 GameObject:
@@ -19513,7 +19559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -19521,7 +19567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -19561,11 +19607,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -665
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19694,7 +19740,7 @@ MonoBehaviour:
   botaoUpgrade: {fileID: 2041469393}
   iconButton: {fileID: 2012507693}
   tempo_Passado: 0
-  intervalo_geracao: 60
+  intervalo_geracao: 5
   upgrade_preco: {fileID: 442500757}
   upgrade_desc: {fileID: 1605833361}
   upgrade_Lv: {fileID: 1942342017}
@@ -19703,9 +19749,9 @@ MonoBehaviour:
   preco_Inicial: 5000
   novo_Preco: 0
   multiplicador_Preco: 1.3
-  queijos_Por_Upgrade: 500
+  queijos_Por_Upgrade: 60
   queijos_Level_Total: 0
-  valor_Total_Queijos_Upgrades: 0
+  valor_Total_Queijos_Upgrades: 60
   level_Upgrade: 0
 --- !u!1 &2044583748
 GameObject:
@@ -20216,7 +20262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -20224,7 +20270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -20264,11 +20310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 155.005
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 7314564920919274940, guid: 81f3b41dafb91c64684e8ecc4ab4f20c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
