@@ -44,6 +44,7 @@
 ---
 
 ## 📸 Capturas de tela
+** Imagens do Alpha do Jogo, a versão final pode ser encontrada no final do Read.me
 
 > ![Imagem Gameplay](Assets/Imports/Images/Gameplay.jpeg)
 > ![Imagem Gameplay2](Assets/Imports/Images/Gameplay_2.jpeg)
